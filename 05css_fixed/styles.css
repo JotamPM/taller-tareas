@@ -1,0 +1,30 @@
+h1{ text-shadow: 2px 2px 5px rgb(77, 77, 51);}
+
+.div1 {
+    position: fixed;
+    text-align: center;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    width: 1350px;
+    height: 75px;
+    background-color: rgb(214, 214, 194);
+}
+
+.div2 {
+    position: relative;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    width: 1350px;
+    height: 75px;
+}
+
+.div3{
+    position: relative;
+    text-align: justify;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    width: 1350px;
+}
+
+.div4{
+    position: relative;
+    text-align: center;
+    width: 1350px;
+}
