@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/camara-reflex-digital.png" alt="" width="30" height="30" class="d-inline-block align-text-top">   Fotografías</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="2000">
+            <img src="./images/20170121_192303.jpg" class="d-block w-100" alt="foto1">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="./images/IMG_20211003_233523.jpg" class="d-block w-100" alt="foto2">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="./images/IMG_20211007_183453.jpg" class="d-block w-100 h-100" width="50%" height="50%" alt="foto3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+      <section id="galeria" class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./images/IMG_20211004_230303.jpg" alt="imagen de galeria">
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/IMG_20211102_055836.jpg" alt="imagen de galeria">
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/20160310_194729.jpg" alt="imagen de galeria">
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/IMG_20211126_173937.jpg" alt="imagen de galeria">
+          </div>
+          <div class="col-lg-4">
+            <img src="./images/IMG_20220324_182504.jpg" alt="imagen de galeria">
+          </div>
+        </div>
+      </section>
+    
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
